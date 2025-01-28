@@ -3,17 +3,6 @@ import matplotlib.pyplot as plt
 
 G = nx.Graph()
 
-# G.add_edge('A', 'B')
-# G.add_edge('A', 'C')
-# G.add_edge('B', 'D')
-# G.add_edge('C', 'D')
-# G.add_edge('D', 'E')
-# G.add_edge('E', 'F')
-# G.add_edge('F', 'G')
-# G.add_edge('G', 'H')
-# G.add_edge('C', 'E')
-# G.add_edge('G', 'C')
-
 G.add_edges_from(
     [
         ("A", "C"),
